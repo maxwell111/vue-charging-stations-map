@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "IONITY Charging Station",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Kyiv",
+                "address": "Yevhena Sverstiuka Street, 4",
+                "phone": "0952007002"
+            },
+            "coordinates": {
+                "latitude": "50.4334863",
+                "longitude": "30.5605404"
+            },
+            "ports": [
+                {
+                    "port_name": "CHAdeMO",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "CCS",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                },
+                {
+                    "port_name": "J1772",
+                    "power": "7"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "AutoEnterprise 267",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Kyiv",
+                "address": "Velyka Vasylkivska Street, 53-55",
+                "phone": "0975357777"
+            },
+            "coordinates": {
+                "latitude": "50.4324556",
+                "longitude": "30.456938"
+            },
+            "ports": [
+                {
+                    "port_name": "CHAdeMO",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "CCS",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                },
+                {
+                    "port_name": "J1772",
+                    "power": "7"
+                }
+            ]
+        }
+    ]
+}

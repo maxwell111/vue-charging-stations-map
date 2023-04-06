@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Kyiv",
+            "coordinates": {
+                "latitude": "50.4500",
+                "longitude": "30.5236"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Kharkiv",
+            "coordinates": {
+                "latitude": "49.988358",
+                "longitude": "36.232845"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Odessa",
+            "coordinates": {
+                "latitude": "46.4775",
+                "longitude": "30.7326"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Dnipro",
+            "coordinates": {
+                "latitude": "48.4500",
+                "longitude": "34.9833"
+            }
+        }
+    ]
+}
