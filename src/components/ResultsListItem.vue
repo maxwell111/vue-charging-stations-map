@@ -8,7 +8,7 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(["setMapEmit"]);
+defineEmits(["setMap"]);
 
 const stationName = computed(() => {
   return props.stationData.name;
@@ -22,16 +22,12 @@ const stationAddress = computed(() => {
 const stationCoordinates = computed(() => {
   return Object.values(props.stationData.coordinates);
 });
-
-const stationClickHandler = (coords) => {
-  emit("setMapEmit", coords);
-};
 </script>
 
 <template>
   <div
     class="stations-item cursor-pointer mb-2 py-5 px-4 shadow-lg rounded bg-gray-50"
-    @click="stationClickHandler(stationCoordinates)"
+    @click="$emit('setMap', stationCoordinates)"
   >
     <div class="stations-item-content-top">
       <h3 class="text-base text-[#00a500] font-medium">
