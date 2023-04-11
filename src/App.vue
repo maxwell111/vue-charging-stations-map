@@ -11,6 +11,7 @@ import { getAllStations } from "./services/api";
 import ResultsListItem from "./components/ResultsListItem.vue";
 import FilterInput from "./components/FilterInput.vue";
 import ClearResultsButton from "./components/ClearResultsButton.vue";
+import MarkerPopup from "./components/MarkerPopup.vue";
 
 const mapZoom = ref(6);
 const mapCoordinates = ref([48.383022, 31.1828699]);
@@ -48,7 +49,7 @@ const clearResultsHandler = () => {
 const filteredStations = computed(() => {
   const query = inputFilter.value.toLowerCase();
   return stations.value.filter((station) =>
-    station.name.toLowerCase().includes(query)
+    station.general_info.city.toLowerCase().includes(query)
   );
 });
 
@@ -82,13 +83,18 @@ onMounted(() => {
             />
           </div>
 
-          <div class="stations-list">
+          <div
+            class="stations-list max-h-[300px] lg:max-h-[494px] overflow-y-auto relative"
+          >
             <results-list-item
               v-for="station in filteredStations"
               :key="station.id"
               :station-data="station"
               @set-map="setMapHandler"
             />
+            <div
+              class="station-list-overlay sticky w-full h-[40px] bottom-0 rounded-b-lg bg-gradient-to-t from-white"
+            ></div>
           </div>
         </div>
         <div class="content-right lg:flex-1">
@@ -112,7 +118,7 @@ onMounted(() => {
               >
                 <l-icon :icon-url="IconMarkerUrl" :icon-size="markerIconSize" />
                 <l-popup>
-                  {{ station.name }}
+                  <marker-popup :station-data="station" />
                 </l-popup>
               </l-marker>
             </l-map>

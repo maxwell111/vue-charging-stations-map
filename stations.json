@@ -19,19 +19,23 @@
             "ports": [
                 {
                     "port_name": "CHAdeMO",
-                    "power": " 50"
+                    "power": " 50",
+                    "free": false
                 },
                 {
                     "port_name": "CCS",
-                    "power": " 50"
+                    "power": " 50",
+                    "free": true
                 },
                 {
                     "port_name": "Type 2",
-                    "power": "22"
+                    "power": "22",
+                    "free": true
                 },
                 {
                     "port_name": "J1772",
-                    "power": "7"
+                    "power": "7",
+                    "free": true
                 }
             ]
         },
@@ -67,6 +71,153 @@
                 {
                     "port_name": "J1772",
                     "power": "7"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "EcoFactor Charging Station",
+            "status": {
+                "available": true,
+                "open": false
+            },
+            "general_info": {
+                "city": "Kharkiv",
+                "address": "Pushkinska Street, 2a",
+                "phone": "+37379332322"
+            },
+            "coordinates": {
+                "latitude": "49.9973405",
+                "longitude": "36.225153"
+            },
+            "ports": [
+                {
+                    "port_name": "CHAdeMO",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "CCS",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                },
+                {
+                    "port_name": "J1772",
+                    "power": "7"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "AE Charging Station",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Odesa",
+                "address": "Bunina Street, 14",
+                "phone": "+380975357777"
+            },
+            "coordinates": {
+                "latitude": "46.4808957",
+                "longitude": "30.7019417"
+            },
+            "ports": [
+                {
+                    "port_name": "CHAdeMO",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "CCS",
+                    "power": " 50"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "E-line Charging Station",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Dnipro",
+                "address": "Ivana Ezau, 25",
+                "phone": "0661251624"
+            },
+            "coordinates": {
+                "latitude": "48.4830732",
+                "longitude": "35.0161703"
+            },
+            "ports": [
+                {
+                    "port_name": "Rosette",
+                    "power": " 3.6"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "E-line Charging Station",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Dnipro",
+                "address": "Ivana Ezau, 25",
+                "phone": "0661251624"
+            },
+            "coordinates": {
+                "latitude": "48.4830732",
+                "longitude": "35.0161703"
+            },
+            "ports": [
+                {
+                    "port_name": "Rosette",
+                    "power": " 3.6"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "AE Charging Station",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Lviv",
+                "address": "Soborna Square, 14",
+                "phone": "+380975357777"
+            },
+            "coordinates": {
+                "latitude": "49.845068",
+                "longitude": "24.0156341"
+            },
+            "ports": [
+                {
+                    "port_name": "Rosette",
+                    "power": " 3.6"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
                 }
             ]
         }
