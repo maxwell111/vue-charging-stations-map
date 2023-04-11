@@ -83,13 +83,18 @@ onMounted(() => {
             />
           </div>
 
-          <div class="stations-list">
+          <div
+            class="stations-list max-h-[300px] lg:max-h-[494px] overflow-y-auto relative"
+          >
             <results-list-item
               v-for="station in filteredStations"
               :key="station.id"
               :station-data="station"
               @set-map="setMapHandler"
             />
+            <div
+              class="station-list-overlay sticky w-full h-[40px] bottom-0 rounded-b-lg bg-gradient-to-t from-white"
+            ></div>
           </div>
         </div>
         <div class="content-right lg:flex-1">
