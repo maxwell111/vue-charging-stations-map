@@ -13,6 +13,10 @@ const stationName = computed(() => {
   return props.stationData.name;
 });
 
+const stationId = computed(() => {
+  return props.stationData.id;
+});
+
 const stationAddress = computed(() => {
   const { city, address } = props.stationData.general_info;
   return `${city}, ${address}`;
@@ -25,9 +29,15 @@ const stationStatus = computed(() => {
 const stationPortsQuantity = computed(() => {
   return Object.entries(props.stationData.ports).length;
 });
+
+const stationPageSlug = computed(() => {
+  const { name } = props.stationData;
+  return name.split(" ").join("-").toLowerCase();
+});
 </script>
 <template>
   <div class="w-full">
+    {{ stationPageSlug }}
     <h4 class="mb-1 text-base text-[#000] font-medium">{{ stationName }}</h4>
     <span class="block text-gray-500 text-sm font-light mb-2">{{
       stationAddress
@@ -57,10 +67,13 @@ const stationPortsQuantity = computed(() => {
         >{{ stationPortsQuantity }} Ports</span
       >
     </div>
-    <a
-      href="#"
+    <router-link
+      :to="{
+        name: 'station',
+        params: { id: stationId },
+      }"
       class="inline-block bg-[#7aaa45] hover:bg-[#689437] !text-[white] font-bold py-2 px-4 rounded transition"
-      >More details</a
+      >More details</router-link
     >
   </div>
 </template>

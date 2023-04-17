@@ -141,61 +141,34 @@
             ]
         },
         {
-            "id": 5,
-            "name": "E-line Charging Station",
-            "status": {
-                "available": true,
-                "open": true
-            },
-            "general_info": {
-                "city": "Dnipro",
-                "address": "Ivana Ezau, 25",
-                "phone": "0661251624"
-            },
-            "coordinates": {
-                "latitude": "48.4830732",
-                "longitude": "35.0161703"
-            },
-            "ports": [
-                {
-                    "port_name": "Rosette",
-                    "power": " 3.6"
-                },
-                {
-                    "port_name": "Type 2",
-                    "power": "22"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "name": "E-line Charging Station",
-            "status": {
-                "available": true,
-                "open": true
-            },
-            "general_info": {
-                "city": "Dnipro",
-                "address": "Ivana Ezau, 25",
-                "phone": "0661251624"
-            },
-            "coordinates": {
-                "latitude": "48.4830732",
-                "longitude": "35.0161703"
-            },
-            "ports": [
-                {
-                    "port_name": "Rosette",
-                    "power": " 3.6"
-                },
-                {
-                    "port_name": "Type 2",
-                    "power": "22"
-                }
-            ]
-        },
-        {
             "id": 6,
+            "name": "E-line Charging Station",
+            "status": {
+                "available": true,
+                "open": true
+            },
+            "general_info": {
+                "city": "Dnipro",
+                "address": "Ivana Ezau, 25",
+                "phone": "0661251624"
+            },
+            "coordinates": {
+                "latitude": "48.4830732",
+                "longitude": "35.0161703"
+            },
+            "ports": [
+                {
+                    "port_name": "Rosette",
+                    "power": " 3.6"
+                },
+                {
+                    "port_name": "Type 2",
+                    "power": "22"
+                }
+            ]
+        },
+        {
+            "id": 7,
             "name": "AE Charging Station",
             "status": {
                 "available": true,
