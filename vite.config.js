@@ -6,7 +6,7 @@ import svgLoader from "vite-svg-loader";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), eslintPlugin(), svgLoader()],
-  base: "", // update base path before if will be deploy for Github Pages
+  base: "/stations/", // update base path before if will be deploy for Github Pages
   server: {
     port: 8000,
   },

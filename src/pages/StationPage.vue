@@ -21,5 +21,9 @@ onBeforeMount(() => {
 </script>
 
 <template>
-  <div>{{ stationData }}</div>
+  <div class="wrap lg:py-[40px]">
+    <div class="container mx-auto m-auto lg:w-[1200px] px-[20px]">
+      {{ stationData }}
+    </div>
+  </div>
 </template>
