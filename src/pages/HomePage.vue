@@ -63,7 +63,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="wrap lg:py-[40px]">
+  <div class="wrap lg:py-[40px] h-[100vh]">
     <div class="container mx-auto m-auto lg:w-[1200px] px-[20px]">
       <div class="title">
         <h1 class="text-3xl lg:text-5xl font-extrabold mb-5">

@@ -32,12 +32,13 @@ app.get("/station/:id", (req, res) => {
     res.status(404).json(messages.notFoundMessage);
     return;
   }
-  const filteredResponse = stationsJson.data.filter((item) => {
+  const filteredResponse = stationsJson.data.find((item) => {
     return item.id === queryId;
   });
+
   res.status(200).json({
     ...messages.successMessage,
-    data: [...filteredResponse],
+    data: filteredResponse,
   });
 });
 

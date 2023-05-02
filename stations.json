@@ -12,6 +12,15 @@
                 "address": "Yevhena Sverstiuka Street, 4",
                 "phone": "0952007002"
             },
+            "images": {
+                "main": "https://placehold.co/600x400?text=Station+Image+Main",
+                "extra": [
+                    "https://placehold.co/300x200?text=Station+Image+Extra1",
+                    "https://placehold.co/300x200?text=Station+Image+Extra2",
+                    "https://placehold.co/300x200?text=Station+Image+Extra3",
+                    "https://placehold.co/300x200?text=Station+Image+Extra4"
+                ]
+            },
             "coordinates": {
                 "latitude": "50.4334863",
                 "longitude": "30.5605404"
@@ -20,22 +29,23 @@
                 {
                     "port_name": "CHAdeMO",
                     "power": " 50",
-                    "free": false
+                    "status": "available"
                 },
                 {
                     "port_name": "CCS",
                     "power": " 50",
-                    "free": true
+                    "status": "available"
                 },
                 {
                     "port_name": "Type 2",
                     "power": "22",
-                    "free": true
+                    "status": "occupied"
                 },
                 {
                     "port_name": "J1772",
                     "power": "7",
-                    "free": true
+                    "free": true,
+                    "status": "occupied"
                 }
             ]
         },
@@ -51,6 +61,15 @@
                 "address": "Velyka Vasylkivska Street, 53-55",
                 "phone": "0975357777"
             },
+            "images": {
+                "main": "https://placehold.co/600x400?text=Station+Image+Main",
+                "extra": [
+                    "https://placehold.co/300x200?text=Station+Image+Extra1",
+                    "https://placehold.co/300x200?text=Station+Image+Extra2",
+                    "https://placehold.co/300x200?text=Station+Image+Extra3",
+                    "https://placehold.co/300x200?text=Station+Image+Extra4"
+                ]
+            },
             "coordinates": {
                 "latitude": "50.4324556",
                 "longitude": "30.456938"
@@ -58,19 +77,23 @@
             "ports": [
                 {
                     "port_name": "CHAdeMO",
-                    "power": " 50"
+                    "power": " 50",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "CCS",
-                    "power": " 50"
+                    "power": " 50",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "Type 2",
-                    "power": "22"
+                    "power": "22",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "J1772",
-                    "power": "7"
+                    "power": "7",
+                    "status": "occupied"
                 }
             ]
         },
@@ -86,6 +109,15 @@
                 "address": "Pushkinska Street, 2a",
                 "phone": "+37379332322"
             },
+            "images": {
+                "main": "https://placehold.co/600x400?text=Station+Image+Main",
+                "extra": [
+                    "https://placehold.co/300x200?text=Station+Image+Extra1",
+                    "https://placehold.co/300x200?text=Station+Image+Extra2",
+                    "https://placehold.co/300x200?text=Station+Image+Extra3",
+                    "https://placehold.co/300x200?text=Station+Image+Extra4"
+                ]
+            },
             "coordinates": {
                 "latitude": "49.9973405",
                 "longitude": "36.225153"
@@ -93,19 +125,23 @@
             "ports": [
                 {
                     "port_name": "CHAdeMO",
-                    "power": " 50"
+                    "power": " 50",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "CCS",
-                    "power": " 50"
+                    "power": " 50",
+                    "status": "available"
                 },
                 {
                     "port_name": "Type 2",
-                    "power": "22"
+                    "power": "22",
+                    "status": "available"
                 },
                 {
                     "port_name": "J1772",
-                    "power": "7"
+                    "power": "7",
+                    "status": "occupied"
                 }
             ]
         },
@@ -121,6 +157,15 @@
                 "address": "Bunina Street, 14",
                 "phone": "+380975357777"
             },
+            "images": {
+                "main": "https://placehold.co/600x400?text=Station+Image+Main",
+                "extra": [
+                    "https://placehold.co/300x200?text=Station+Image+Extra1",
+                    "https://placehold.co/300x200?text=Station+Image+Extra2",
+                    "https://placehold.co/300x200?text=Station+Image+Extra3",
+                    "https://placehold.co/300x200?text=Station+Image+Extra4"
+                ]
+            },
             "coordinates": {
                 "latitude": "46.4808957",
                 "longitude": "30.7019417"
@@ -128,15 +173,18 @@
             "ports": [
                 {
                     "port_name": "CHAdeMO",
-                    "power": " 50"
+                    "power": " 50",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "CCS",
-                    "power": " 50"
+                    "power": " 50",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "Type 2",
-                    "power": "22"
+                    "power": "22",
+                    "status": "occupied"
                 }
             ]
         },
@@ -152,6 +200,15 @@
                 "address": "Ivana Ezau, 25",
                 "phone": "0661251624"
             },
+            "images": {
+                "main": "https://placehold.co/600x400?text=Station+Image+Main",
+                "extra": [
+                    "https://placehold.co/300x200?text=Station+Image+Extra1",
+                    "https://placehold.co/300x200?text=Station+Image+Extra2",
+                    "https://placehold.co/300x200?text=Station+Image+Extra3",
+                    "https://placehold.co/300x200?text=Station+Image+Extra4"
+                ]
+            },
             "coordinates": {
                 "latitude": "48.4830732",
                 "longitude": "35.0161703"
@@ -159,11 +216,13 @@
             "ports": [
                 {
                     "port_name": "Rosette",
-                    "power": " 3.6"
+                    "power": " 3.6",
+                    "status": "available"
                 },
                 {
                     "port_name": "Type 2",
-                    "power": "22"
+                    "power": "22",
+                    "status": "available"
                 }
             ]
         },
@@ -179,6 +238,15 @@
                 "address": "Soborna Square, 14",
                 "phone": "+380975357777"
             },
+            "images": {
+                "main": "https://placehold.co/600x400?text=Station+Image+Main",
+                "extra": [
+                    "https://placehold.co/300x200?text=Station+Image+Extra1",
+                    "https://placehold.co/300x200?text=Station+Image+Extra2",
+                    "https://placehold.co/300x200?text=Station+Image+Extra3",
+                    "https://placehold.co/300x200?text=Station+Image+Extra4"
+                ]
+            },
             "coordinates": {
                 "latitude": "49.845068",
                 "longitude": "24.0156341"
@@ -186,11 +254,13 @@
             "ports": [
                 {
                     "port_name": "Rosette",
-                    "power": " 3.6"
+                    "power": " 3.6",
+                    "status": "occupied"
                 },
                 {
                     "port_name": "Type 2",
-                    "power": "22"
+                    "power": "22",
+                    "status": "occupied"
                 }
             ]
         }

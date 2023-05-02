@@ -29,15 +29,9 @@ const stationStatus = computed(() => {
 const stationPortsQuantity = computed(() => {
   return Object.entries(props.stationData.ports).length;
 });
-
-const stationPageSlug = computed(() => {
-  const { name } = props.stationData;
-  return name.split(" ").join("-").toLowerCase();
-});
 </script>
 <template>
   <div class="w-full">
-    {{ stationPageSlug }}
     <h4 class="mb-1 text-base text-[#000] font-medium">{{ stationName }}</h4>
     <span class="block text-gray-500 text-sm font-light mb-2">{{
       stationAddress
